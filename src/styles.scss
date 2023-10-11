@@ -1,3 +1,9 @@
+@import "./variables";
+
+body {
+    background-color: #ededed;
+}
+
 body,
 header a,
 h2 {
@@ -17,4 +23,22 @@ h1 {
 
 .active {
   text-decoration: underline;
+}
+
+.card {
+    background-color: #ededed;
+}
+
+.about,
+.contact {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.email {
+    font-size: 1.6em;
+}
+
+.icon {
+    color: black;
 }
