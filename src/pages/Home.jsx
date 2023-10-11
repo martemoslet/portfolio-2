@@ -2,7 +2,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -20,8 +20,14 @@ export default function Home() {
               This was the final project exam at Noroff. The task was to create
               a booking site called Holidaze.
             </Card.Text>
-            <Button variant="primary">Github</Button>
-            <Button variant="secondary">Website</Button>
+            <div className="d-flex justify-content-center pt-2">
+              <Link to="https://github.com/martemoslet/project-exam-2">
+                <Button variant="secondary">Github</Button>
+              </Link>
+              <Link to="https://fancy-croquembouche-2bbd3d.netlify.app/">
+                <Button>Website</Button>
+              </Link>
+            </div>
           </Card.Body>
         </Card>
 
@@ -33,8 +39,14 @@ export default function Home() {
               This was the course assignment for JavaScript Frameworks. The goal
               was to build an eCom store using React.
             </Card.Text>
-            <Button variant="primary">Github</Button>
-            <Button variant="secondary">Website</Button>
+            <div className="d-flex justify-content-center pt-2">
+              <Link to="https://github.com/martemoslet/js-frameworks-ca">
+                <Button variant="secondary">Github</Button>
+              </Link>
+              <Link to="https://jolly-dodol-8de8aa.netlify.app/">
+                <Button>Website</Button>
+              </Link>
+            </div>
           </Card.Body>
         </Card>
 
@@ -46,8 +58,14 @@ export default function Home() {
               This was a semester project at Noroff. The goal was to create an
               auction website.
             </Card.Text>
-            <Button variant="primary">Github</Button>
-            <Button variant="secondary">Website</Button>
+            <div className="d-flex justify-content-center pt-2">
+              <Link to="https://github.com/martemoslet/semester-project2">
+                <Button variant="secondary">Github</Button>
+              </Link>
+              <Link to="https://auction.martemoslet.one/">
+                <Button>Website</Button>
+              </Link>
+            </div>
           </Card.Body>
         </Card>
       </Row>
