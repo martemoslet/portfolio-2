@@ -13,7 +13,7 @@ export default function Home() {
       </h1>
       <Row className="d-flex justify-content-center pt-4">
         <Card style={{ width: "25rem", border: "none" }}>
-          <img src="/assets/project-exam-2.png" />
+          <img src="/assets/project-exam-2.png" alt="Project exam" />
           <Card.Body>
             <Card.Title>Holidaze</Card.Title>
             <Card.Text>
@@ -32,7 +32,7 @@ export default function Home() {
         </Card>
 
         <Card style={{ width: "25rem", border: "none" }}>
-          <img src="../../public/assets/js-frameworks-ca.png" />
+          <img src="/assets/js-frameworks-ca.png" alt="Js frameworks ca" />
           <Card.Body>
             <Card.Title>eCom store</Card.Title>
             <Card.Text>
@@ -51,7 +51,7 @@ export default function Home() {
         </Card>
 
         <Card style={{ width: "25rem", border: "none" }}>
-          <img src="../../public/assets/semester-project-2.png" />
+          <img src="/assets/semester-project-2.png" alt="Semester project 2" />
           <Card.Body>
             <Card.Title>Fashion Auction Online</Card.Title>
             <Card.Text>
