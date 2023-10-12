@@ -13,7 +13,7 @@ export default function Home() {
       </h1>
       <Row className="d-flex justify-content-center pt-4">
         <Card style={{ width: "25rem", border: "none" }}>
-          <img src="../../public/assets/project-exam-2.png" />
+          <img src="/assets/project-exam-2.png" />
           <Card.Body>
             <Card.Title>Holidaze</Card.Title>
             <Card.Text>
