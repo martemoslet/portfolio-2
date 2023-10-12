@@ -1,0 +1,44 @@
+@import "./variables";
+
+body {
+    background-color: #ededed;
+}
+
+body,
+header a,
+h2 {
+  font-family: "Quicksand", sans-serif, Verdana, Geneva, Tahoma;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: "Playfair Display", serif, Verdana, Geneva, Tahoma;
+}
+
+.portfolio {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.card {
+    background-color: #ededed;
+}
+
+.about,
+.contact {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.email {
+    font-size: 1.6em;
+}
+
+.icon {
+    color: black;
+}
